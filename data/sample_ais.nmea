@@ -1,0 +1,13 @@
+# Sample AIS NMEA 0183 sentences (AIVDM) for replay testing.
+# Lines beginning with '#' and blank lines are ignored by the source.
+# Includes single-part position reports and a 2-part (fragmented) Type 5 message.
+!AIVDM,1,1,,A,15M67FC000G?ufbE`FepT@3n00Sa,0*5C
+!AIVDM,1,1,,B,15MgK45P3@G?fl0E`JbR0OwT0@MS,0*4E
+!AIVDM,1,1,,A,13u?etPv2;0n:dDPwUM1U1Cb069D,0*24
+!AIVDM,1,1,,B,177KQJ5000G?tO`K>RA1wUbN0TKH,0*5C
+!AIVDM,1,1,,A,15NPOOPP00o?b=bE`UNv4?w428D;,0*24
+!AIVDM,2,1,3,B,55P5TL01VIaAL@7WKO@mBplU@<PDhh000000001S;AJ::4A80?4i@E53,0*3E
+!AIVDM,2,2,3,B,1@0000000000000,2*55
+!AIVDM,1,1,,B,15Mj23`P00G?q7fK>g:o7@1L088i,0*5B
+!AIVDM,1,1,,A,403OweAuvA4iI00@l`AXVA700@MS,0*52
+!AIVDM,1,1,,B,B6CdCm0t3`tba35RbVl000005>SS,0*0C

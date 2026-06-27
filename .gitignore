@@ -1,0 +1,13 @@
+# Build artifacts
+gws-java/out/
+mission-ada/obj/
+mission-ada/bin/
+
+# Generated runtime configs (make gws-tcp / gws-serial / serial-demo)
+.run/
+
+# Generated test data (large; regenerate with `make gen-data`)
+data/sim_1h_ais.nmea
+
+# macOS
+.DS_Store
